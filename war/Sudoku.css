@@ -1,0 +1,169 @@
+
+
+.statuspanel {
+	border-style:solid;
+	border-width:4px;
+	width:1024px;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: #7DA9FF;
+}
+
+.sudoku-menubar {
+   border-style:solid;
+   border-width:4px;
+   background: #7DA9FF;
+}
+
+.sudoku-menubar .gwt-MenuItem {
+   background: #7DA9FF;
+   font-size: 24pt;
+   font-family: Impact, Arial, Helvetica, sans-serif;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.sudoku-menubar .gwt-MenuItem-selected {
+   background: #5555FF;
+}
+
+.sudoku-menubarMenu .gwt-MenuItem {
+   background: #7DA9FF;
+   font-size: 24pt;
+   font-family: Impact, Arial, Helvetica, sans-serif;
+   border: 0px;
+   border-style: dotted;
+}
+
+.sudoku-menubarMenu .gwt-MenuItem-selected {
+   background: #5555FF;
+}
+
+.statusfield {
+	font-size: 24pt;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+}
+
+.timerfield {
+   background: #7DA9FF;
+	font-size: 24pt;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+
+.congrats-dialog {
+   background: #7DA9FF;
+	font-size: 24pt;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+}
+
+.levelChooser-Text {
+	color: black;
+	font-size: 24pt;
+}
+
+.levelChooser-Button {
+	align: center;
+	background-color: #7DA9FF;
+	font-size: 18pt;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.playAgain-Button {
+	align: center;
+	background-color: #FFFFFF;
+	font-size: 24pt;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.highscore-Text {
+	align: center;
+	color: black;
+	font-size: 8pt;
+}
+
+.highscoreHeading-Text {
+	align: center;
+	background-color: blue;
+	color: white;
+	font-size: 12pt;
+}
+
+div.img {
+	margin:2px;
+	border:1px solid #0000ff;
+	height:auto;
+	width:auto;
+	float:left;
+	text-align:center;
+}
+
+div.img img {
+	display:inline;
+	margin:3px;
+	border:1px solid #ffffff;
+}
+
+div.img a:hover img {
+	border:1px solid #0000ff;
+}
+
+div.desc {
+	text-align:center;
+	font-weight:normal;
+	width:120px;
+	margin:2px;
+}
+
+.tb { 
+   border-style:solid;
+   border-width:5px;
+}
+
+.numPicker-Button {
+  background-color: light-grey;
+  color: black;
+  font-size: 18pt;
+}
+
+.highscore-Text {
+  align: center;
+  color: black;
+  font-size: 8pt;
+}
+
+.highscoreHeading-Text {
+  align: center;
+  background-color: blue;
+  color: white;
+  font-size: 12pt;
+}
+
+div.img {
+  margin:2px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+}
+
+div.img img {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;
+}
+
+div.img a:hover img {
+  border:1px solid #0000ff;
+}
+
+div.desc {
+  text-align:center;
+  font-weight:normal;
+  width:120px;           
+  margin:2px;
+}

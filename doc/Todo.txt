@@ -1,0 +1,6 @@
+
+1) Can't choose restart game after solve.
+2) Highlight locked cells.
+3) Keyboard controls.
+
+Colour cells.

@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link type="text/css" rel="stylesheet" href="Sudoku.css">
+    <title>Sudoku</title>
+    
+        <script type="text/javascript" language="javascript" src="sudoku/sudoku.nocache.js"></script>
+
+  </head>
+
+
+  <body bgcolor="white">
+ <!-- Facebook integration -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '408018062542655', // App ID
+        channelUrl : 'https://apps.facebook.com/sudokudk/channel.html', // Channel File
+        status     : true, // check login status
+        cookie     : true, // enable cookies to allow the server to access the session
+        xfbml      : true  // parse XFBML
+      });
+    };
+
+    // Load the SDK Asynchronously
+    (function(d){
+      var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+      js = d.createElement('script'); js.id = id; js.async = true;
+      js.src = "//connect.facebook.net/en_US/all.js";
+      d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+  </script>
+  
+
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled in order for this application to display correctly.
+      </div>
+    </noscript>
+  <!-- Facebook Like button initialisation -->
+    
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=408018062542655";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32901100-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_addIgnoredRef', 'static.ak.facebook.com']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <table id="tbg" class="maintable">
+      	<tr><td>
+<div id = "menubarContainer" align="center"></div>
+<div id = "timerFieldContainer" align="center"></div>
+<div id = "canvasContainer" align="center"></div>
+<div id = "statusFieldContainer" align="center"></div>
+    	</td></tr>
+    </table>
+    
+<!-- Facebook Like button  -->
+<div class="fb-like" align="center" data-href="https://apps.facebook.com/sudokudk/?fb_source=timeline" data-send="false" data-width="450" data-show-faces="true" data-font="arial"></div>
+<p><b>Instructions:</b> The aim of Sudoku is to fill in all the squares with numbers 1-9.  Each column, each row and each 3*3 section should contain all the of the numbers 1 to 9 only once.
+You can also enter your own puzzle by selecting Game/New Game/Solve existing puzzle, entering in the numbers and then selecting Solver/Solve.</p>
+</body>
+</html>
